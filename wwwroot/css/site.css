@@ -20,3 +20,65 @@ html {
 body {
   margin-bottom: 60px;
 }
+.loginbody {
+
+  background-color: #ffff;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  width: 350px;
+  margin: 30px auto;
+  background-color: #ffff;
+  padding: 20px;
+  border: 1px solid #3a3939;
+  border-radius: 3px;
+
+}
+
+.h2l {
+  padding: 20px;
+font-size: 30px;
+text-align: center;
+color: #3a3939;
+font-family: 'Roboto', sans-serif; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+    width: 35%;
+    padding: 8px;
+	  margin: 5px;
+	  border-radius: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+button:focus {
+  outline: none;
+box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+.showpassword{
+color: #000;
+font-family: 'Roboto', sans-serif;	
+font-size: 13px;
+}

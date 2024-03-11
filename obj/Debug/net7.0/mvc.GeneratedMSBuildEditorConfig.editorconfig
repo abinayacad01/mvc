@@ -9,45 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mvc
 build_property.RootNamespace = mvc
-build_property.ProjectDir = c:\Users\abinayacad01\Desktop\CADBATCH\mvc\
+build_property.ProjectDir = C:\Users\abinayacad01\Desktop\CADBATCH\mvc\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = c:\Users\abinayacad01\Desktop\CADBATCH\mvc
+build_property.MSBuildProjectDirectory = C:\Users\abinayacad01\Desktop\CADBATCH\mvc
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/AboutUs.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/Home.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/Paidcourses.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/Paidcourses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWlkY291cnNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/Tutorials.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Home/Tutorials.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUdXRvcmlhbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Shared/Error.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/_ViewImports.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/_ViewStart.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Shared/_Layout.cshtml]
+[C:/Users/abinayacad01/Desktop/CADBATCH/mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-x8p8g49oo3

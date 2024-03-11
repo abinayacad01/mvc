@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj": {}
+    "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj": {}
   },
   "projects": {
-    "c:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj": {
+    "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj",
+        "projectUniqueName": "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj",
         "projectName": "mvc",
-        "projectPath": "c:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj",
+        "projectPath": "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj",
         "packagesPath": "C:\\Users\\abinayacad01\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\obj\\",
+        "outputPath": "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abinayacad01\\AppData\\Roaming\\NuGet\\NuGet.Config"
