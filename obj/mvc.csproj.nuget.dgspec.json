@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj": {}
+    "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj": {
+    "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj",
+        "projectUniqueName": "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\mvc.csproj",
         "projectName": "mvc",
-        "projectPath": "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\mvc.csproj",
+        "projectPath": "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\mvc.csproj",
         "packagesPath": "C:\\Users\\abinayacad01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abinayacad01\\Desktop\\CADBATCH\\mvc\\obj\\",
+        "outputPath": "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abinayacad01\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -41,6 +46,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
             }
           },
           "imports": [
@@ -54,6 +63,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -62,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
