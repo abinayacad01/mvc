@@ -1,6 +1,6 @@
-namespace mvc.Models;
+namespace mvc.Controllers;
 
-public class loginModel
+public class LoginModel
 {
     public string? username { get; set; }
     public string? password { get; set; }
