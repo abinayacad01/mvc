@@ -74,6 +74,42 @@ public class HomeController : Controller
     {
         return View();
     }
+    [HttpGet]
+        public IActionResult Register()
+    {
+        return View();
+    }
+     void conStr(){
+         con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS; database=CAD_LW; User ID=CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True; ";
+    }
+    
+    [HttpPost]
+     public IActionResult RegisterDB(RegisterModel rmodel)
+    {   
+
+         conStr();
+         con.Open();
+         SqlCommand cmd = new SqlCommand();
+         cmd.Connection=con;
+         cmd.CommandText="INSERT INTO USR_REG (USERNAME, EMAIL_ID, USER_ID,PASSWORD,CONFIRM_PASSWORD)VALUES (@USERNAME, @EMAIL_ID, @USER_ID, @PASSWORD, @CONFIRM_PASSWORD);";
+          
+          cmd.Parameters.AddWithValue("@USERNAME", rmodel.USERNAME);
+          cmd.Parameters.AddWithValue("@EMAIL_ID", rmodel.EMAIL_ID);
+          cmd.Parameters.AddWithValue("@USER_ID", rmodel.USER_ID);
+          cmd.Parameters.AddWithValue("@PASSWORD", rmodel.PASSWORD);
+          cmd.Parameters.AddWithValue("@CONFIRM_PASSWORD", rmodel.CONFIRM_PASSWORD);
+         
+         int rowAffected=cmd.ExecuteNonQuery();
+         if(rowAffected>0){
+             return RedirectToAction("Login");
+         }
+         else{
+
+             return RedirectToAction("Error");
+         }
+        return View();
+        
+    }
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

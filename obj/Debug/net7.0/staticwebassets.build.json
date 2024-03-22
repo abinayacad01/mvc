@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Um9GATOs4JStAlavk0lnY3PAgvgBTAnwoJD3+KZiMPs=",
+  "Hash": "10pJ3LPwP3t5Saj4qKtoY95sdCoLu/XJ15KZ7uncHBQ=",
   "Source": "mvc",
   "BasePath": "_content/mvc",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\mvc.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\wwwroot\\css\\register.css",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "css/register.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
       "Identity": "C:\\Users\\abinayacad01\\Desktop\\cadbatch\\mvc\\wwwroot\\css\\site.css",
